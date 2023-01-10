@@ -5,12 +5,11 @@ public class App {
         System.out.println("Informe o número a obter a tabela de múltiplos");
         int numeroMultiplicado = scanner.nextInt();
 
-
         int[] tabelaQuantidade = new int[10];
-        int x = 4;
         System.out.println("\nTabela de multiplicação de " + numeroMultiplicado + ", de 1 a 10:");
+        
         for (int i = 0; i <= tabelaQuantidade.length; i++) {
-        System.out.println(x * i);
+        System.out.println(numeroMultiplicado * i);
         }
         
     }
